@@ -5,6 +5,23 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
+<!-- Quantcast Tag, part 1 --> 
+<script type="text/javascript">
+  var _qevents = _qevents || [];
+  (function() {
+   var elem = document.createElement('script');
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge")
+               + ".quantserve.com/quant.js";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);  
+  })();
+</script>
+
+<!-- chartbeat head -->
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
     <script>(function(k){if(typeof(k)==="undefined"){k={}}if(typeof(k.performance)==="undefined"){k.performance={}}k.performance.userTimingJsNow=false;k.performance.userTimingJsNowPrefixed=false;k.performance.userTimingJsUserTiming=false;k.performance.userTimingJsUserTimingPrefixed=false;k.performance.userTimingJsPerformanceTimeline=false;k.performance.userTimingJsPerformanceTimelinePrefixed=false;var f=[];var b=[];var d=null;var g,e;if(typeof(k.performance.now)!=="function"){k.performance.userTimingJsNow=true;b=["webkitNow","msNow","mozNow"];for(g=0;g<b.length;g++){if(typeof(k.performance[b[g]])==="function"){k.performance.now=k.performance[b[g]];k.performance.userTimingJsNowPrefixed=true;break}}var l=+(new Date());if(k.performance.timing&&k.performance.timing.navigationStart){l=k.performance.timing.navigationStart}if(typeof(k.performance.now)!=="function"){if(Date.now){k.performance.now=function(){return Date.now()-l}}else{k.performance.now=function(){return +(new Date())-l}}}}var h=function(){};var a=function(){};var o=[];var n=false;if(typeof(k.performance.getEntries)!=="function"){k.performance.userTimingJsPerformanceTimeline=true;f=["webkit","moz"];b=["getEntries","getEntriesByName","getEntriesByType"];for(g=0;g<b.length;g++){for(e=0;e<f.length;e++){d=f[e]+b[g].substr(0,1).toUpperCase()+b[g].substr(1);if(typeof(k.performance[d])==="function"){k.performance[b[g]]=k.performance[d];k.performance.userTimingJsPerformanceTimelinePrefixed=true}}}h=function(i){o.push(i);if(i.entryType==="measure"){n=true}};var c=function(){if(!n){return}o.sort(function(j,i){return j.startTime-i.startTime});n=false};a=function(j,i){g=0;while(g<o.length){if(o[g].entryType!==j){g++;continue}if(typeof(i)!=="undefined"&&o[g].name!==i){g++;continue}o.splice(g,1)}};if(typeof(k.performance.getEntries)!=="function"){k.performance.getEntries=function(){c();return o.slice(0)}}if(typeof(k.performance.getEntriesByType)!=="function"){k.performance.getEntriesByType=function(j){if(typeof(j)==="undefined"||(j!=="mark"&&j!=="measure")){return[]}if(j==="measure"){c()}var i=[];for(g=0;g<o.length;g++){if(o[g].entryType===j){i.push(o[g])}}return i}}if(typeof(k.performance.getEntriesByName)!=="function"){k.performance.getEntriesByName=function(j,p){if(p&&p!=="mark"&&p!=="measure"){return[]}if(typeof(p)!=="undefined"&&p==="measure"){c()}var i=[];for(g=0;g<o.length;g++){if(typeof(p)!=="undefined"&&o[g].entryType!==p){continue}if(o[g].name===j){i.push(o[g])}}return i}}}if(typeof(k.performance.mark)!=="function"){k.performance.userTimingJsUserTiming=true;f=["webkit","moz","ms"];b=["mark","measure","clearMarks","clearMeasures"];for(g=0;g<b.length;g++){for(e=0;e<f.length;e++){d=f[e]+b[g].substr(0,1).toUpperCase()+b[g].substr(1);if(typeof(k.performance[d])==="function"){k.performance[b[g]]=k.performance[d];k.performance.userTimingJsUserTimingPrefixed=true}}}var m={};if(typeof(k.performance.mark)!=="function"){k.performance.mark=function(j){var i=k.performance.now();if(typeof(j)==="undefined"){throw new SyntaxError("Mark name must be specified")}if(k.performance.timing&&j in k.performance.timing){throw new SyntaxError("Mark name is not allowed")}if(!m[j]){m[j]=[]}m[j].push(i);h({entryType:"mark",name:j,startTime:i,duration:0})}}if(typeof(k.performance.clearMarks)!=="function"){k.performance.clearMarks=function(i){if(!i){m={}}else{m[i]=[]}a("mark",i)}}if(typeof(k.performance.measure)!=="function"){k.performance.measure=function(r,s,p){var i=k.performance.now();if(!r){throw new Error("Measure must be specified")}if(!s){h({entryType:"measure",name:r,startTime:0,duration:i});return}var j=0;if(k.performance.timing&&s in k.performance.timing){if(s!=="navigationStart"&&k.performance.timing[s]===0){throw new Error(s+" has a timing of 0")}j=k.performance.timing[s]-k.performance.timing.navigationStart}else{if(s in m){j=m[s][m[s].length-1]}else{throw new Error(s+" mark not found")}}var q=i;if(p){q=0;if(k.performance.timing&&p in k.performance.timing){if(p!=="navigationStart"&&k.performance.timing[p]===0){throw new Error(p+" has a timing of 0")}q=k.performance.timing[p]-k.performance.timing.navigationStart}else{if(p in m){q=m[p][m[p].length-1]}else{throw new Error(p+" mark not found")}}}var t=q-j;h({entryType:"measure",name:r,startTime:j,duration:t})}}if(typeof(k.performance.clearMeasures)!=="function"){k.performance.clearMeasures=function(i){a("measure",i)}}}if(typeof define!=="undefined"&&define.amd){define([],function(){return k.performance})}else{if(typeof module!=="undefined"&&typeof(module.exports)!=="undefined"){module.exports=k.performance}}}(typeof(window)!=="undefined"?window:undefined));</script>
     <script>performance.mark('headStart');</script>
     
@@ -1096,7 +1113,122 @@ node.parentNode.insertBefore(gads, node);
     });
   </script>
   
+<!-- cmg footer metrics -->
+<script type="text/javascript">
+  var projectSite = "statesman";
+  var projectChannel = "news"; // Medley Category
+  var projectCategory = "local"; // Medley subCategory
+  var projectSubCategory = "ted-cruz-rafael-cruz"; // project name
+</script>
 
+<!-- statesman sitecatalyst to test blanks -->
+<script language="JavaScript" type="text/javascript"><!--
+if (projectCategory == "") {
+    projectHier3 = projectChannel
+}
+else if (projectSubCategory == "" && projectCategory != "") {
+    projectHier3 = projectChannel + "|" + projectCategory 
+}
+else {
+    projectHier3 = projectChannel + "|" + projectCategory + "|" + projectSubCategory
+}
+--></script>
+
+<!-- SiteCatalyst code version: H.25.5.
+Copyright 1996-2013 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="http://media.cmgdigital.com/shared/news/documents/2013/08/07/sitecatalyst_statesmanv25.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+
+s.pageName=location.host + location.pathname
+s.server=window.location.host
+s.channel=projectChannel
+s.pageType=""
+s.prop9=window.location.host
+s.prop13=document.title.toLowerCase()
+s.prop14=projectCategory
+s.prop16="non-mobile site"
+s.prop17=""
+s.prop18=""
+s.prop19=""
+s.prop20=""
+s.prop21=projectSite
+s.prop22="flat pages"
+s.prop23=""
+s.prop42=projectSite
+s.prop43="newspaper"
+s.prop57=document.referrer
+s.prop63=document.location.href
+/* Conversion Variables */
+s.hier1="tx: austin|newspaper|" + projectSite
+s.hier2="newspaper|tx: austin|" + projectSite
+s.hier3=projectHier3
+s.campaign=""
+s.state=""
+s.zip=""
+s.events="event1"
+s.products=""
+s.purchaseID=""
+s.eVar9=s.prop9
+s.eVar13=s.prop13
+s.eVar14=s.prop14
+s.eVar15=""
+s.eVar16="non-mobile site"
+s.eVar17=""
+s.eVar18=""
+s.eVar19=""
+s.eVar20=""
+s.eVar21=s.prop21
+s.eVar22="flat pages"
+s.eVar23=""
+s.eVar42=s.prop42
+s.eVar43="newspaper"
+s.eVar55=s.pageName
+s.eVar56=s.channel
+s.eVar57=document.referrer
+s.eVar63=document.location.href
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><img src="http://coxnet.112.2o7.net/b/ss/coxstatesman/1/H.25.5--NS/0"
+height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.25.5. -->
+
+<!-- Quantcast Tag, part 2 -->
+<script type="text/javascript">
+    _qevents.push( { qacct:"p-38KriKc8Foyx-"} );
+</script>
+<noscript>
+<div style="display: none;">
+    <img src="http://pixel.quantserve.com/pixel/p-test123.gif" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+
+<!--  Chartbeat code -->
+
+<script type="text/javascript">
+  var chartbeatdomain = projectSite + '.com'
+  var _sf_async_config = { uid: 31585, domain: chartbeatdomain, useCanonical: true };
+  (function() {
+    function loadChartbeat() {
+      window._sf_endpt = (new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
+     document.body.appendChild(e);
+    };
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+      loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
   
   </body>
 </html>
