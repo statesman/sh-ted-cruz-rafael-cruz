@@ -240,10 +240,10 @@ setTimeout(function(){ plate.waitReady(); }, 0);
     function premium_failed_fetch_handler_after_janrain_session(log_source, log_msg, log_info) {
         cmg._logger.log(log_source, log_msg, log_info);
 
-        
+
     }
 
-    
+
 
     cmg.mediaurl = 'http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/';
     cmg.site_meta = {
@@ -252,7 +252,7 @@ setTimeout(function(){ plate.waitReady(); }, 0);
         site_name: 'myaas',
         premium_status: ''
     };
-    
+
     cmg.parse_qs = function parse_qs(str) {
         if (!str) { return {}; }
         if (str[0] === '?') { str = str.slice(1); }
@@ -274,10 +274,10 @@ setTimeout(function(){ plate.waitReady(); }, 0);
                 cookie = cookie.slice(0,11) + '...';
             }
 
-            
-            
+
+
                 this.query(id+' .cmUserAuthed a:first-child').text(cookie);
-            
+
             this.query(id+' .cmUserAuthed').show();
             this.query(id+' .cmUserAnonymous').hide();
         } else {
@@ -289,11 +289,11 @@ setTimeout(function(){ plate.waitReady(); }, 0);
 
     var metrics_signin = 0;
 
-    
+
     cmg.query.ajaxSetup({ cache: true });
 
-    
-    
+
+
 </script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/premium/js/cmg-subnav.js"></script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/lib/lazythumbs/js/lazythumbs.js"></script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/javascript/jquery.mobile-events.min.js"></script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/premium/js/jquery.placeholder.min.js"></script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/javascript/writeCapture.js"></script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/javascript/jquery.writeCapture.js"></script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/javascript/marimo.js"></script><script type="text/javascript">marimo.init(cmg.query);</script><!-- these are all the possible bootstrap plugins you can use, disabled until we need them --><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/premium/js/bootstrap-transition.js"></script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/premium/js/bootstrap-modalmanager.js"></script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/premium/js/bootstrap-modal-ext.js"></script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/premium/js/bootstrap-dropdown.js"></script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/premium/js/bootstrap-collapse.js"></script><script type="text/javascript">
     cmg.janrain_capture_server = 'https://users.cmgdigital.com';
     cmg.janrain_js_url = 'widget-cdn.rpxnow.com/load/login.cmgdigital.com';
@@ -319,7 +319,7 @@ setTimeout(function(){ plate.waitReady(); }, 0);
             pubads.set('page_url', location.href);
             pubads.collapseEmptyDivs(true);
 
-            
+
                 urlparams = cmg.utility.getURLParamDict(location.search);
                 cmg.harmony.load({
                     targeting: {
@@ -330,7 +330,7 @@ setTimeout(function(){ plate.waitReady(); }, 0);
                         wrap_meta: cmg.utility.getMetaKeywords()
                     }
                 });
-            
+
         });
     });
 </script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/javascript/ndn_script_injector.js"></script><!-- Begin comScore Tag --><script type="text/javascript">
@@ -357,7 +357,7 @@ setTimeout(function(){ plate.waitReady(); }, 0);
 <script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/javascript/qualtrics.js?zid=ZN_abfOISyb898XBuB&rate=100"></script>
 
 
-    
+
 
     <style>
 .header .header-logo  {
@@ -380,7 +380,7 @@ setTimeout(function(){ plate.waitReady(); }, 0);
     margin-top: 0px;
 }
 </style>
-<script>(function(k){if(typeof(k)==="undefined"){k={}}if(typeof(k.performance)==="undefined"){k.performance={}}k.performance.userTimingJsNow=false;k.performance.userTimingJsNowPrefixed=false;k.performance.userTimingJsUserTiming=false;k.performance.userTimingJsUserTimingPrefixed=false;k.performance.userTimingJsPerformanceTimeline=false;k.performance.userTimingJsPerformanceTimelinePrefixed=false;var f=[];var b=[];var d=null;var g,e;if(typeof(k.performance.now)!=="function"){k.performance.userTimingJsNow=true;b=["webkitNow","msNow","mozNow"];for(g=0;g<b.length;g++){if(typeof(k.performance[b[g]])==="function"){k.performance.now=k.performance[b[g]];k.performance.userTimingJsNowPrefixed=true;break}}var l=+(new Date());if(k.performance.timing&&k.performance.timing.navigationStart){l=k.performance.timing.navigationStart}if(typeof(k.performance.now)!=="function"){if(Date.now){k.performance.now=function(){return Date.now()-l}}else{k.performance.now=function(){return +(new Date())-l}}}}var h=function(){};var a=function(){};var o=[];var n=false;if(typeof(k.performance.getEntries)!=="function"){k.performance.userTimingJsPerformanceTimeline=true;f=["webkit","moz"];b=["getEntries","getEntriesByName","getEntriesByType"];for(g=0;g<b.length;g++){for(e=0;e<f.length;e++){d=f[e]+b[g].substr(0,1).toUpperCase()+b[g].substr(1);if(typeof(k.performance[d])==="function"){k.performance[b[g]]=k.performance[d];k.performance.userTimingJsPerformanceTimelinePrefixed=true}}}h=function(i){o.push(i);if(i.entryType==="measure"){n=true}};var c=function(){if(!n){return}o.sort(function(j,i){return j.startTime-i.startTime});n=false};a=function(j,i){g=0;while(g<o.length){if(o[g].entryType!==j){g++;continue}if(typeof(i)!=="undefined"&&o[g].name!==i){g++;continue}o.splice(g,1)}};if(typeof(k.performance.getEntries)!=="function"){k.performance.getEntries=function(){c();return o.slice(0)}}if(typeof(k.performance.getEntriesByType)!=="function"){k.performance.getEntriesByType=function(j){if(typeof(j)==="undefined"||(j!=="mark"&&j!=="measure")){return[]}if(j==="measure"){c()}var i=[];for(g=0;g<o.length;g++){if(o[g].entryType===j){i.push(o[g])}}return i}}if(typeof(k.performance.getEntriesByName)!=="function"){k.performance.getEntriesByName=function(j,p){if(p&&p!=="mark"&&p!=="measure"){return[]}if(typeof(p)!=="undefined"&&p==="measure"){c()}var i=[];for(g=0;g<o.length;g++){if(typeof(p)!=="undefined"&&o[g].entryType!==p){continue}if(o[g].name===j){i.push(o[g])}}return i}}}if(typeof(k.performance.mark)!=="function"){k.performance.userTimingJsUserTiming=true;f=["webkit","moz","ms"];b=["mark","measure","clearMarks","clearMeasures"];for(g=0;g<b.length;g++){for(e=0;e<f.length;e++){d=f[e]+b[g].substr(0,1).toUpperCase()+b[g].substr(1);if(typeof(k.performance[d])==="function"){k.performance[b[g]]=k.performance[d];k.performance.userTimingJsUserTimingPrefixed=true}}}var m={};if(typeof(k.performance.mark)!=="function"){k.performance.mark=function(j){var i=k.performance.now();if(typeof(j)==="undefined"){throw new SyntaxError("Mark name must be specified")}if(k.performance.timing&&j in k.performance.timing){throw new SyntaxError("Mark name is not allowed")}if(!m[j]){m[j]=[]}m[j].push(i);h({entryType:"mark",name:j,startTime:i,duration:0})}}if(typeof(k.performance.clearMarks)!=="function"){k.performance.clearMarks=function(i){if(!i){m={}}else{m[i]=[]}a("mark",i)}}if(typeof(k.performance.measure)!=="function"){k.performance.measure=function(r,s,p){var i=k.performance.now();if(!r){throw new Error("Measure must be specified")}if(!s){h({entryType:"measure",name:r,startTime:0,duration:i});return}var j=0;if(k.performance.timing&&s in k.performance.timing){if(s!=="navigationStart"&&k.performance.timing[s]===0){throw new Error(s+" has a timing of 0")}j=k.performance.timing[s]-k.performance.timing.navigationStart}else{if(s in m){j=m[s][m[s].length-1]}else{throw new Error(s+" mark not found")}}var q=i;if(p){q=0;if(k.performance.timing&&p in k.performance.timing){if(p!=="navigationStart"&&k.performance.timing[p]===0){throw new Error(p+" has a timing of 0")}q=k.performance.timing[p]-k.performance.timing.navigationStart}else{if(p in m){q=m[p][m[p].length-1]}else{throw new Error(p+" mark not found")}}}var t=q-j;h({entryType:"measure",name:r,startTime:j,duration:t})}}if(typeof(k.performance.clearMeasures)!=="function"){k.performance.clearMeasures=function(i){a("measure",i)}}}if(typeof define!=="undefined"&&define.amd){define([],function(){return k.performance})}else{if(typeof module!=="undefined"&&typeof(module.exports)!=="undefined"){module.exports=k.performance}}}(typeof(window)!=="undefined"?window:undefined));</script><script>performance.mark('headStart');</script><meta charset="utf-8"/><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/><title>For evangelical voters, Rafael Cruz may be Ted’s best apostle</title><meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport"/><meta content="Rafael Cruz is his son's his most tireless surrogate and most persuasive emissary to the evangelical community on whose support ted Cruz's strategy for winning the presidency hinges." property="description"/><meta content="Jonathan Tilove" property="author"/><meta content="Ted Cruz, evangelical, election, president, Rafael Cruz, Republican nominee" property="news_keywords"/><meta content="article" property="og:type"/><meta content="For evangelical voters, Rafael Cruz may be Ted’s best apostle" property="og:title"/><meta content="Rafael Cruz is his son's his most tireless surrogate and most persuasive emissary to the evangelical community on whose support ted Cruz's strategy for winning the presidency hinges." property="og:description"/><meta content="http://projects.statesman.com/news/ted-cruz-rafael-cruz//media/6rafael-lr_p6oszze.jpg" property="og:image"/><script>
+<script>(function(k){if(typeof(k)==="undefined"){k={}}if(typeof(k.performance)==="undefined"){k.performance={}}k.performance.userTimingJsNow=false;k.performance.userTimingJsNowPrefixed=false;k.performance.userTimingJsUserTiming=false;k.performance.userTimingJsUserTimingPrefixed=false;k.performance.userTimingJsPerformanceTimeline=false;k.performance.userTimingJsPerformanceTimelinePrefixed=false;var f=[];var b=[];var d=null;var g,e;if(typeof(k.performance.now)!=="function"){k.performance.userTimingJsNow=true;b=["webkitNow","msNow","mozNow"];for(g=0;g<b.length;g++){if(typeof(k.performance[b[g]])==="function"){k.performance.now=k.performance[b[g]];k.performance.userTimingJsNowPrefixed=true;break}}var l=+(new Date());if(k.performance.timing&&k.performance.timing.navigationStart){l=k.performance.timing.navigationStart}if(typeof(k.performance.now)!=="function"){if(Date.now){k.performance.now=function(){return Date.now()-l}}else{k.performance.now=function(){return +(new Date())-l}}}}var h=function(){};var a=function(){};var o=[];var n=false;if(typeof(k.performance.getEntries)!=="function"){k.performance.userTimingJsPerformanceTimeline=true;f=["webkit","moz"];b=["getEntries","getEntriesByName","getEntriesByType"];for(g=0;g<b.length;g++){for(e=0;e<f.length;e++){d=f[e]+b[g].substr(0,1).toUpperCase()+b[g].substr(1);if(typeof(k.performance[d])==="function"){k.performance[b[g]]=k.performance[d];k.performance.userTimingJsPerformanceTimelinePrefixed=true}}}h=function(i){o.push(i);if(i.entryType==="measure"){n=true}};var c=function(){if(!n){return}o.sort(function(j,i){return j.startTime-i.startTime});n=false};a=function(j,i){g=0;while(g<o.length){if(o[g].entryType!==j){g++;continue}if(typeof(i)!=="undefined"&&o[g].name!==i){g++;continue}o.splice(g,1)}};if(typeof(k.performance.getEntries)!=="function"){k.performance.getEntries=function(){c();return o.slice(0)}}if(typeof(k.performance.getEntriesByType)!=="function"){k.performance.getEntriesByType=function(j){if(typeof(j)==="undefined"||(j!=="mark"&&j!=="measure")){return[]}if(j==="measure"){c()}var i=[];for(g=0;g<o.length;g++){if(o[g].entryType===j){i.push(o[g])}}return i}}if(typeof(k.performance.getEntriesByName)!=="function"){k.performance.getEntriesByName=function(j,p){if(p&&p!=="mark"&&p!=="measure"){return[]}if(typeof(p)!=="undefined"&&p==="measure"){c()}var i=[];for(g=0;g<o.length;g++){if(typeof(p)!=="undefined"&&o[g].entryType!==p){continue}if(o[g].name===j){i.push(o[g])}}return i}}}if(typeof(k.performance.mark)!=="function"){k.performance.userTimingJsUserTiming=true;f=["webkit","moz","ms"];b=["mark","measure","clearMarks","clearMeasures"];for(g=0;g<b.length;g++){for(e=0;e<f.length;e++){d=f[e]+b[g].substr(0,1).toUpperCase()+b[g].substr(1);if(typeof(k.performance[d])==="function"){k.performance[b[g]]=k.performance[d];k.performance.userTimingJsUserTimingPrefixed=true}}}var m={};if(typeof(k.performance.mark)!=="function"){k.performance.mark=function(j){var i=k.performance.now();if(typeof(j)==="undefined"){throw new SyntaxError("Mark name must be specified")}if(k.performance.timing&&j in k.performance.timing){throw new SyntaxError("Mark name is not allowed")}if(!m[j]){m[j]=[]}m[j].push(i);h({entryType:"mark",name:j,startTime:i,duration:0})}}if(typeof(k.performance.clearMarks)!=="function"){k.performance.clearMarks=function(i){if(!i){m={}}else{m[i]=[]}a("mark",i)}}if(typeof(k.performance.measure)!=="function"){k.performance.measure=function(r,s,p){var i=k.performance.now();if(!r){throw new Error("Measure must be specified")}if(!s){h({entryType:"measure",name:r,startTime:0,duration:i});return}var j=0;if(k.performance.timing&&s in k.performance.timing){if(s!=="navigationStart"&&k.performance.timing[s]===0){throw new Error(s+" has a timing of 0")}j=k.performance.timing[s]-k.performance.timing.navigationStart}else{if(s in m){j=m[s][m[s].length-1]}else{throw new Error(s+" mark not found")}}var q=i;if(p){q=0;if(k.performance.timing&&p in k.performance.timing){if(p!=="navigationStart"&&k.performance.timing[p]===0){throw new Error(p+" has a timing of 0")}q=k.performance.timing[p]-k.performance.timing.navigationStart}else{if(p in m){q=m[p][m[p].length-1]}else{throw new Error(p+" mark not found")}}}var t=q-j;h({entryType:"measure",name:r,startTime:j,duration:t})}}if(typeof(k.performance.clearMeasures)!=="function"){k.performance.clearMeasures=function(i){a("measure",i)}}}if(typeof define!=="undefined"&&define.amd){define([],function(){return k.performance})}else{if(typeof module!=="undefined"&&typeof(module.exports)!=="undefined"){module.exports=k.performance}}}(typeof(window)!=="undefined"?window:undefined));</script><script>performance.mark('headStart');</script><meta charset="utf-8"/><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/><title>For evangelical voters, Rafael Cruz may be Ted’s best apostle</title><meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport"/><meta content="Rafael Cruz is his son's most tireless surrogate and most persuasive emissary to the evangelical community on whose support ted Cruz's strategy for winning the presidency hinges." property="description"/><meta content="Jonathan Tilove" property="author"/><meta content="Ted Cruz, evangelical, election, president, Rafael Cruz, Republican nominee" property="news_keywords"/><meta content="article" property="og:type"/><meta content="For evangelical voters, Rafael Cruz may be Ted’s best apostle" property="og:title"/><meta content="Rafael Cruz is his son's most tireless surrogate and most persuasive emissary to the evangelical community on whose support ted Cruz's strategy for winning the presidency hinges." property="og:description"/><meta content="http://projects.statesman.com/news/ted-cruz-rafael-cruz//media/6rafael-lr_p6oszze.jpg" property="og:image"/><script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -393,7 +393,7 @@ var gads = document.createElement('script');
 gads.async = true;
 gads.type = 'text/javascript';
 var useSSL = 'https:' == document.location.protocol;
-gads.src = (useSSL ? 'https:' : 'http:') + 
+gads.src = (useSSL ? 'https:' : 'http:') +
 '//www.googletagservices.com/tag/js/gpt.js';
 var node = document.getElementsByTagName('script')[0];
 node.parentNode.insertBefore(gads, node);
@@ -588,7 +588,7 @@ node.parentNode.insertBefore(gads, node);
         document.documentElement.className += ' mac-retina-chrome';
       }
     </script><script>performance.mark('headEnd');</script>
-    
+
     <link rel="stylesheet" href="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/premium/css/minimalist.css" /><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/premium/js/minimalist.js"></script></head><body id="story-body" class="body"><div class="container header top fixed"><div><div class="left"><a href="http://www.mystatesman.com"><img src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/site/www_mystatesman_com/images/mystatesman.svg" name="www.mystatesman.com" class="header-logo"></a></div><div class="right"><a class="facebook-link popup" href="http://www.facebook.com/statesman
 "><img class="facebook" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/premium/images/minimalist/facebook.png"></a><a class="twitter-link popup" href="https://twitter.com/statesman
 "><img class="twitter" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/premium/images/minimalist/twitter.svg"></a><a class="header-button subscribe-link" href="https://myaccount.statesman.com/dsssubscribe.aspx
@@ -701,17 +701,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WMW6FK');</script><!-- End Doubleclick Tag Manager --><script>(function(){ 
-window._fbds = window._fbds || {}; 
-_fbds.pixelId = 1422250601354173; 
-var fbds = document.createElement('script'); 
-fbds.async = true; 
-fbds.src = '//connect.facebook.net/en_US/fbds.js'; 
-var s = document.getElementsByTagName('script')[0]; 
-s.parentNode.insertBefore(fbds, s); 
-})(); 
-window._fbq = window._fbq || []; 
-window._fbq.push(["track", "PixelInitialized", {}]); 
+})(window,document,'script','dataLayer','GTM-WMW6FK');</script><!-- End Doubleclick Tag Manager --><script>(function(){
+window._fbds = window._fbds || {};
+_fbds.pixelId = 1422250601354173;
+var fbds = document.createElement('script');
+fbds.async = true;
+fbds.src = '//connect.facebook.net/en_US/fbds.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(fbds, s);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(["track", "PixelInitialized", {}]);
 </script><noscript><img height="1" width="1" border="0" alt=" style="display:none" src="https://www.facebook.com/tr?id=1422250601354173&amp;ev=NoScript" /></noscript
 <!-- Facebook Pixel Code --><script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -1021,7 +1021,7 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
         background-image: url(./media/6rafael-mr_kopou3p.jpg);
       }
     }
-    
+
   </style>
 <div class="section section-text-over-media section-title section-title-4013" data-viewport-height="" id="title-4013">
 <div class="text title-inner center bottom">
@@ -1062,7 +1062,7 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
       video.muted = true;
     }
 </script><style>
-  
+
     .section-text-over-media-10146 {
       background-image: url(./media/1cruz-hr.jpg);
     }
@@ -1081,8 +1081,8 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
         background-image: url(./media/1cruz-mr.jpg);
       }
     }
-    
-  
+
+
 </style>
 <div class="section section-text-over-media section-text-over-image section-text-over-media-10146 " data-viewport-height="" id="text-over-media-10146">
 <div class="text text-over-media-inner center center normal">
@@ -1138,7 +1138,7 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
       video.muted = true;
     }
 </script><style>
-  
+
     .section-text-over-media-10147 {
       background-image: url(./media/3rafael-hr.jpg);
     }
@@ -1157,8 +1157,8 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
         background-image: url(./media/3rafael-mr.jpg);
       }
     }
-    
-  
+
+
 </style>
 <div class="section section-text-over-media section-text-over-image section-text-over-media-10147 " data-viewport-height="" id="text-over-media-10147">
 <div class="text text-over-media-inner center center normal">
@@ -1215,7 +1215,7 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
       video.muted = true;
     }
 </script><style>
-  
+
     .section-text-over-media-10148 {
       background-image: url(./media/1raf-hr.jpg);
     }
@@ -1234,8 +1234,8 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
         background-image: url(./media/1raf-mr.jpg);
       }
     }
-    
-  
+
+
 </style>
 <div class="section section-text-over-media section-text-over-image section-text-over-media-10148 " data-viewport-height="" id="text-over-media-10148">
 <div class="text text-over-media-inner center center normal">
@@ -1305,7 +1305,7 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
       video.muted = true;
     }
 </script><style>
-  
+
     .section-text-over-media-10151 {
       background-image: url(./media/2jwj_abbott_11-hr.jpg);
     }
@@ -1324,8 +1324,8 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
         background-image: url(./media/2jwj_abbott_11-mr.jpg);
       }
     }
-    
-  
+
+
 </style>
 <div class="section section-text-over-media section-text-over-image section-text-over-media-10151 " data-viewport-height="" id="text-over-media-10151">
 <div class="text text-over-media-inner center center normal">
@@ -1385,7 +1385,7 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
       video.muted = true;
     }
 </script><style>
-  
+
     .section-text-over-media-10149 {
       background-image: url(./media/1rafael-hr.jpg);
     }
@@ -1404,8 +1404,8 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
         background-image: url(./media/1rafael-mr.jpg);
       }
     }
-    
-  
+
+
 </style>
 <div class="section section-text-over-media section-text-over-image section-text-over-media-10149 " data-viewport-height="" id="text-over-media-10149">
 <div class="text text-over-media-inner center center normal">
@@ -1487,7 +1487,7 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
       video.muted = true;
     }
 </script><style>
-  
+
     .section-text-over-media-10150 {
       background-image: url(./media/4rafeal-hr.jpg);
     }
@@ -1506,8 +1506,8 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
         background-image: url(./media/4rafeal-mr.jpg);
       }
     }
-    
-  
+
+
 </style>
 <div class="section section-text-over-media section-text-over-image section-text-over-media-10150 " data-viewport-height="" id="text-over-media-10150">
 <div class="text text-over-media-inner center center normal">
@@ -1605,7 +1605,7 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
     });
   </script>
 <script>
-    
+
 
     ga('create', 'UA-42055132-1', {'name': 'shorthand' });
     ga('shorthand.send', 'pageview', {
@@ -1635,11 +1635,11 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
 ">Subscribe</a></li><li><a href="http://www.mystatesman.com/">mystatesman.com</a></li></ul></div></div><!-- begin analytics block --><span style="display:none;" id="cm_s_code"></span><!-- SiteCatalyst code version: H.25.5.
         Copyright 1996-2013 Adobe, Inc. All Rights Reserved
         More info available at http://www.omniture.com --><script type="text/javascript">//<![CDATA[
-            
-            
-            
 
-            
+
+
+
+
             var cx_siteName = "mystatesman";
             var cx_rsID = "coxstatesman";
             var cx_marketpath = "tx: austin";
@@ -1647,7 +1647,7 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
 
             var s_account = cx_rsID;
 
-            
+
             if (("prod" == "prod") &&
                 (!((/www.prod.mystatesman/.test(window.location.host))
                 || (/m.prod.mystatesman/.test(window.location.host))))) {
@@ -1656,14 +1656,14 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
                     }
                 }
             else {
-                
+
                 s_account = "coxradiodev,coxnewspaperdev,coxtvdev";
             }
         //]]></script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/web/common/javascript/AppMeasurement.js"></script><script type="text/javascript" src="http://media.cmgdigital.com/shared/media/2015-07-30-09-31-30/bower_libs/omniture_utilities/omniture_utilities.min.js"></script><script type="text/javascript">//<![CDATA[
 
         (function() { "use strict";
 
-            
+
             cmg.s_coxnews.siteName=cx_siteName;
             cmg.s_coxnews.linkInternalFilters = "javascript:,doubleclick.net,alt.coxnewsweb.com,legacy.com,uclick.com,signin.cmgdigital.com,www.mystatesman.com,outbrain.com";
             cmg.s_coxnews.server = window.location.host;
@@ -1673,25 +1673,25 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
                 cmg.s_coxnews.prop22 = cmg.s_coxnews.eVar22 = "gur";
             }
 
-            
+
             cmg.s_coxnews.prop63 = cmg.s_coxnews.eVar63 = location.protocol + '//' + location.host + location.pathname + location.search;
 
-            
+
             if (cmg.s_coxnews.prop13.length == 0) {
                 cmg.s_coxnews.prop13 = cmg.s_coxnews.eVar13 = "no page title available";
             }
             cmg.s_coxnews.hier3 = cmg.s_coxnews.channel = cmg.s_coxnews.eVar56 = "no category";
 
-            
 
-            
+
+
             if(cx_medium=="radio" || cx_medium=="tv" || cx_medium=="newspaper") {
                 cmg.s_coxnews.hier1 = cx_marketpath+"|"+cx_medium+"|"+cx_siteName;
                 cmg.s_coxnews.hier2 = cx_medium+"|"+cx_marketpath+"|"+cx_siteName;
-                
+
                 var search_page_re = new RegExp(cmg.s_coxnews.server+"\/search");
                 var search_match = search_page_re.exec(window.location);
-                
+
                 if (cmg.s_coxnews.hasOwnProperty('getQueryParam')) {
                     var queryParam = cmg.s_coxnews.getQueryParam;
                 } else {
@@ -1723,8 +1723,8 @@ src="https://www.facebook.com/tr?id=1039650726068308&ev=PageView&noscript=1"
                 }
             }
 
-            
-            
+
+
 cmg.s_coxnews.prop4 = "";
 cmg.s_coxnews.eVar4 = "";
 cmg.s_coxnews.prop5 = "";
@@ -1762,11 +1762,11 @@ cmg.s_coxnews.eVar16 = "non-mobile site";
                 pathNameStr = pathNameStr.substr(0,98) + "/";
             }
 
-            
-                cmg.s_coxnews.pageName = cmg.s_coxnews.eVar55 = pathNameStr.toLowerCase();
-            
 
-            
+                cmg.s_coxnews.pageName = cmg.s_coxnews.eVar55 = pathNameStr.toLowerCase();
+
+
+
 
             var authPromise = null;
 
@@ -1807,30 +1807,30 @@ cmg.s_coxnews.eVar16 = "non-mobile site";
                 ]);
 
             } else {
-                
+
                 if (cmg.site_meta && cmg.site_meta.premium_status === 'premium') {
                     cmg.s_coxnews.eVar52=cmg.s_coxnews.prop52 = "stubbed";
                 }
             }
-            
-            
-            
 
-            
+
+
+
+
             var cookie = cmg.query.cookie('ur_metrics');
             if (cookie) {
-                
+
                 if (cookie.charAt(0) === '"') {
                     cookie = cookie.slice(1, -1);
                 }
-                
+
                 var cpp = {"prop2": {"start": 25, "length": 50}, "eVar2": {"start": 25, "length": 50}, "eVar12": {"start": 0, "length": 4}, "prop6": {"start": 18, "length": 5}, "prop4": {"start": 8, "length": 5}, "prop5": {"start": 13, "length": 5}, "eVar3": {"start": 4, "length": 4}, "prop7": {"start": 23, "length": 2}, "eVar5": {"start": 13, "length": 5}, "prop1": {"start": 0, "length": 4}, "eVar7": {"start": 23, "length": 2}, "eVar6": {"start": 18, "length": 5}, "eVar4": {"start": 8, "length": 5}, "prop3": {"start": 4, "length": 4}};
                 for (var prop in cpp) {
                     cmg.s_coxnews[prop] = cmg.query.trim(cookie.substr(cpp[prop].start, cpp[prop].length));
                 }
             }
 
-            
+
             for (var key in cmg.s_coxnews) {
                 if (cmg.s_coxnews[key] && key.match(/prop|eVar|hier/) !== null) {
                     cmg.s_coxnews[key] = cmg.s_coxnews[key].toLowerCase();
@@ -1840,7 +1840,7 @@ cmg.s_coxnews.eVar16 = "non-mobile site";
             Promise.resolve(authPromise).then(function() {
                 cmg.query(document).ready(function () {
                     if (typeof(cmg.metrics_consolidator) !== "undefined") {
-                        
+
 
                         cmg.metrics_consolidator.apply_on_ready(cmg_t, 'base');
                     } else {
@@ -1848,7 +1848,7 @@ cmg.s_coxnews.eVar16 = "non-mobile site";
                     }
 
                     function cmg_t() {
-                        
+
                         var s_code = cmg.s_coxnews.t();
                         if (s_code) { cmg.query('#cm_s_code').text(s_code); }
                     }

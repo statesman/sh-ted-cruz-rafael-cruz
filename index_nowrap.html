@@ -5,7 +5,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
-<!-- Quantcast Tag, part 1 --> 
+<!-- Quantcast Tag, part 1 -->
 <script type="text/javascript">
   var _qevents = _qevents || [];
   (function() {
@@ -15,7 +15,7 @@
    elem.async = true;
    elem.type = "text/javascript";
    var scpt = document.getElementsByTagName('script')[0];
-   scpt.parentNode.insertBefore(elem, scpt);  
+   scpt.parentNode.insertBefore(elem, scpt);
   })();
 </script>
 
@@ -26,23 +26,23 @@
 
     <script>(function(k){if(typeof(k)==="undefined"){k={}}if(typeof(k.performance)==="undefined"){k.performance={}}k.performance.userTimingJsNow=false;k.performance.userTimingJsNowPrefixed=false;k.performance.userTimingJsUserTiming=false;k.performance.userTimingJsUserTimingPrefixed=false;k.performance.userTimingJsPerformanceTimeline=false;k.performance.userTimingJsPerformanceTimelinePrefixed=false;var f=[];var b=[];var d=null;var g,e;if(typeof(k.performance.now)!=="function"){k.performance.userTimingJsNow=true;b=["webkitNow","msNow","mozNow"];for(g=0;g<b.length;g++){if(typeof(k.performance[b[g]])==="function"){k.performance.now=k.performance[b[g]];k.performance.userTimingJsNowPrefixed=true;break}}var l=+(new Date());if(k.performance.timing&&k.performance.timing.navigationStart){l=k.performance.timing.navigationStart}if(typeof(k.performance.now)!=="function"){if(Date.now){k.performance.now=function(){return Date.now()-l}}else{k.performance.now=function(){return +(new Date())-l}}}}var h=function(){};var a=function(){};var o=[];var n=false;if(typeof(k.performance.getEntries)!=="function"){k.performance.userTimingJsPerformanceTimeline=true;f=["webkit","moz"];b=["getEntries","getEntriesByName","getEntriesByType"];for(g=0;g<b.length;g++){for(e=0;e<f.length;e++){d=f[e]+b[g].substr(0,1).toUpperCase()+b[g].substr(1);if(typeof(k.performance[d])==="function"){k.performance[b[g]]=k.performance[d];k.performance.userTimingJsPerformanceTimelinePrefixed=true}}}h=function(i){o.push(i);if(i.entryType==="measure"){n=true}};var c=function(){if(!n){return}o.sort(function(j,i){return j.startTime-i.startTime});n=false};a=function(j,i){g=0;while(g<o.length){if(o[g].entryType!==j){g++;continue}if(typeof(i)!=="undefined"&&o[g].name!==i){g++;continue}o.splice(g,1)}};if(typeof(k.performance.getEntries)!=="function"){k.performance.getEntries=function(){c();return o.slice(0)}}if(typeof(k.performance.getEntriesByType)!=="function"){k.performance.getEntriesByType=function(j){if(typeof(j)==="undefined"||(j!=="mark"&&j!=="measure")){return[]}if(j==="measure"){c()}var i=[];for(g=0;g<o.length;g++){if(o[g].entryType===j){i.push(o[g])}}return i}}if(typeof(k.performance.getEntriesByName)!=="function"){k.performance.getEntriesByName=function(j,p){if(p&&p!=="mark"&&p!=="measure"){return[]}if(typeof(p)!=="undefined"&&p==="measure"){c()}var i=[];for(g=0;g<o.length;g++){if(typeof(p)!=="undefined"&&o[g].entryType!==p){continue}if(o[g].name===j){i.push(o[g])}}return i}}}if(typeof(k.performance.mark)!=="function"){k.performance.userTimingJsUserTiming=true;f=["webkit","moz","ms"];b=["mark","measure","clearMarks","clearMeasures"];for(g=0;g<b.length;g++){for(e=0;e<f.length;e++){d=f[e]+b[g].substr(0,1).toUpperCase()+b[g].substr(1);if(typeof(k.performance[d])==="function"){k.performance[b[g]]=k.performance[d];k.performance.userTimingJsUserTimingPrefixed=true}}}var m={};if(typeof(k.performance.mark)!=="function"){k.performance.mark=function(j){var i=k.performance.now();if(typeof(j)==="undefined"){throw new SyntaxError("Mark name must be specified")}if(k.performance.timing&&j in k.performance.timing){throw new SyntaxError("Mark name is not allowed")}if(!m[j]){m[j]=[]}m[j].push(i);h({entryType:"mark",name:j,startTime:i,duration:0})}}if(typeof(k.performance.clearMarks)!=="function"){k.performance.clearMarks=function(i){if(!i){m={}}else{m[i]=[]}a("mark",i)}}if(typeof(k.performance.measure)!=="function"){k.performance.measure=function(r,s,p){var i=k.performance.now();if(!r){throw new Error("Measure must be specified")}if(!s){h({entryType:"measure",name:r,startTime:0,duration:i});return}var j=0;if(k.performance.timing&&s in k.performance.timing){if(s!=="navigationStart"&&k.performance.timing[s]===0){throw new Error(s+" has a timing of 0")}j=k.performance.timing[s]-k.performance.timing.navigationStart}else{if(s in m){j=m[s][m[s].length-1]}else{throw new Error(s+" mark not found")}}var q=i;if(p){q=0;if(k.performance.timing&&p in k.performance.timing){if(p!=="navigationStart"&&k.performance.timing[p]===0){throw new Error(p+" has a timing of 0")}q=k.performance.timing[p]-k.performance.timing.navigationStart}else{if(p in m){q=m[p][m[p].length-1]}else{throw new Error(p+" mark not found")}}}var t=q-j;h({entryType:"measure",name:r,startTime:j,duration:t})}}if(typeof(k.performance.clearMeasures)!=="function"){k.performance.clearMeasures=function(i){a("measure",i)}}}if(typeof define!=="undefined"&&define.amd){define([],function(){return k.performance})}else{if(typeof module!=="undefined"&&typeof(module.exports)!=="undefined"){module.exports=k.performance}}}(typeof(window)!=="undefined"?window:undefined));</script>
     <script>performance.mark('headStart');</script>
-    
-    
+
+
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>For evangelical voters, Rafael Cruz may be Ted’s best apostle</title>
 
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
-    
-<meta property="description" content="Rafael Cruz is his son's his most tireless surrogate and most persuasive emissary to the evangelical community on whose support ted Cruz's strategy for winning the presidency hinges." />
+
+<meta property="description" content="Rafael Cruz is his son's most tireless surrogate and most persuasive emissary to the evangelical community on whose support ted Cruz's strategy for winning the presidency hinges." />
 <meta property="author" content="Jonathan Tilove" />
 <meta property="news_keywords" content="Ted Cruz, evangelical, election, president, Rafael Cruz, Republican nominee" />
 
 
 <meta property="og:type" content="article">
 <meta property="og:title" content="For evangelical voters, Rafael Cruz may be Ted’s best apostle" />
-<meta property="og:description" content="Rafael Cruz is his son's his most tireless surrogate and most persuasive emissary to the evangelical community on whose support ted Cruz's strategy for winning the presidency hinges." />
+<meta property="og:description" content="Rafael Cruz is his son's most tireless surrogate and most persuasive emissary to the evangelical community on whose support ted Cruz's strategy for winning the presidency hinges." />
 <meta property="og:image" content="http://projects.statesman.com/news/ted-cruz-rafael-cruz//media/6rafael-lr_p6oszze.jpg" />
 
 
@@ -53,9 +53,9 @@
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     </script>
     <link href="./static/css/common.2176.css" rel="stylesheet" type="text/css" />
-    
+
   <link href="./static/css/story.2176.css" rel="stylesheet" type="text/css" />
-  
+
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic|PT+Serif:400,700,400italic,700italic"><link href='//fonts.googleapis.com/css?family=Merriweather:400italic,400,700,700italic|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 
 <script type='text/javascript'>
@@ -66,25 +66,25 @@ var gads = document.createElement('script');
 gads.async = true;
 gads.type = 'text/javascript';
 var useSSL = 'https:' == document.location.protocol;
-gads.src = (useSSL ? 'https:' : 'http:') + 
+gads.src = (useSSL ? 'https:' : 'http:') +
 '//www.googletagservices.com/tag/js/gpt.js';
 var node = document.getElementsByTagName('script')[0];
 node.parentNode.insertBefore(gads, node);
 })();
 </script>
 
-  
-  
-    
+
+
+
       <style type="text/css">
 .story .section-header a:hover{border:none}@media (max-width:1100px){.story .small-inline{text-align:center}}@media (max-width:755px){.story .heading-block p,.story .heading-block h3,.story .st-text-block--heading{font-size:140%}.story .quote-block blockquote,.story blockquote{font-size:130%}}
 </style>
-    
+
     <style>
 .story{color:#000}.story .main-column p{color:#000}.story ::selection{background:#a41e25;color:white}#story-body .story .section-header{height:42px;position:fixed;z-index:3;top:0}.story .section-header .header-panel{display:none}.story .navigation .section-navigation{background-color:#242222;opacity:.97}#story-body .story .navigation .section-navigation{position:fixed;top:42px}.story .navigation .section-navigation a,.story .navigation .section-navigation a:visited{font-family:Arial,sans-serif;text-transform:uppercase;font-weight:normal;color:white}.story .navigation .section-navigation a.active,.story .navigation .section-navigation a:visited.active{border-bottom:3px solid #a41e25}.story .section{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif}.story .scrollmation-background,.story .section-text,.story .scrollmation-two-column{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif}.story .scrollmation-background .caption,.story .section-text .caption,.story .scrollmation-two-column .caption{color:#000 !important;font-style:normal;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif}.story .scrollmation-background .main-column,.story .section-text .main-column,.story .scrollmation-two-column .main-column{color:#000}.story .scrollmation-background .main-column a,.story .section-text .main-column a,.story .scrollmation-two-column .main-column a,.story .scrollmation-background .main-column a:visited,.story .section-text .main-column a:visited,.story .scrollmation-two-column .main-column a:visited{color:#00579e}.story .scrollmation-background .main-column .heading-block p,.story .section-text .main-column .heading-block p,.story .scrollmation-two-column .main-column .heading-block p,.story .scrollmation-background .main-column .heading-block h3,.story .section-text .main-column .heading-block h3,.story .scrollmation-two-column .main-column .heading-block h3,.story .scrollmation-background .main-column .st-text-block--heading,.story .section-text .main-column .st-text-block--heading,.story .scrollmation-two-column .main-column .st-text-block--heading{color:#000;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif}.story .scrollmation-background .main-column .st-block[data-type=Quote] .st-block__inner,.story .section-text .main-column .st-block[data-type=Quote] .st-block__inner,.story .scrollmation-two-column .main-column .st-block[data-type=Quote] .st-block__inner,.story .scrollmation-background .main-column .quote-block,.story .section-text .main-column .quote-block,.story .scrollmation-two-column .main-column .quote-block{border:none}.story .scrollmation-background .main-column .st-block[data-type=Quote] .st-block__inner .quote-cite,.story .section-text .main-column .st-block[data-type=Quote] .st-block__inner .quote-cite,.story .scrollmation-two-column .main-column .st-block[data-type=Quote] .st-block__inner .quote-cite,.story .scrollmation-background .main-column .quote-block .quote-cite,.story .section-text .main-column .quote-block .quote-cite,.story .scrollmation-two-column .main-column .quote-block .quote-cite{color:#000;font-style:normal}.story .scrollmation-background .main-column .st-block[data-type=Quote] .st-block__inner blockquote,.story .section-text .main-column .st-block[data-type=Quote] .st-block__inner blockquote,.story .scrollmation-two-column .main-column .st-block[data-type=Quote] .st-block__inner blockquote,.story .scrollmation-background .main-column .quote-block blockquote,.story .section-text .main-column .quote-block blockquote,.story .scrollmation-two-column .main-column .quote-block blockquote,.story .scrollmation-background .main-column blockquote,.story .section-text .main-column blockquote,.story .scrollmation-two-column .main-column blockquote{color:#a41e25;font-family:'Merriweather',serif;font-style:normal}.story .scrollmation-background .main-column .st-block[data-type=Quote] .st-block__inner blockquote p,.story .section-text .main-column .st-block[data-type=Quote] .st-block__inner blockquote p,.story .scrollmation-two-column .main-column .st-block[data-type=Quote] .st-block__inner blockquote p,.story .scrollmation-background .main-column .quote-block blockquote p,.story .section-text .main-column .quote-block blockquote p,.story .scrollmation-two-column .main-column .quote-block blockquote p,.story .scrollmation-background .main-column blockquote p,.story .section-text .main-column blockquote p,.story .scrollmation-two-column .main-column blockquote p{color:#a41e25}.story .scrollmation-two-column .scrollmation-slide{padding-top:85px}.story .section-text-over-media{background-color:#242222}.story .section-text-over-media .text-inner{font-family:'Merriweather',serif}#story-body .story .section-title{margin-top:42px}.story .section-title .story-title{font-family:'Merriweather',serif}.story .section-title .story-heading{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif}.story .section-title .story-metadata,.story .section-title .story-metadata .text-inner{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:normal;text-shadow:none}.story .section-html,.story .custom-html-section{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;background:white}@media (max-width:1100px){#story-body .story .section-header{display:block;z-index:900;background-color:rgba(255,255,255,0.9);width:50px;height:48px;padding:10px 12px;right:10px;left:auto;top:52px;border-radius:5px}.story .section-header .nav-required{float:none}}
 </style>
-  
-  
+
+
 
   <style type="text/css" id="custom-css">
     /**********************************************
@@ -95,15 +95,15 @@ node.parentNode.insertBefore(gads, node);
   </style>
 
 
-    
+
       <script   type="text/javascript" src="./static/js/head.2176.js" charset="utf-8"></script>
-    
+
     <!--[if IE 8]>
       <script>
         videojs.options.flash.swf = "./static/components/videojs/video-js.swf"
       </script>
     <![endif]-->
-    
+
 <script>(function(p, w, de) {
   'use strict';
   p.mark('startImages');
@@ -295,26 +295,26 @@ node.parentNode.insertBefore(gads, node);
     "breakpoints": [0, 755]
   }]
 }'>
-  
-    
-  
-  
+
+
+
+
 
   <script>
   performance.mark('sectionsStart');
   </script>
   <article class="story">
-    
-    
+
+
     <div class="sections-list">
       <div id="header-4023" class="section section-header">
   <div class="header-panel header-logo-panel">
-    
+
   </div>
 
   <div class="header-panel header-social-panel">
     <ul class="header-social-list">
-      
+
         <li>
           <div id="fb-root"></div>
           <script>
@@ -328,7 +328,7 @@ node.parentNode.insertBefore(gads, node);
           </script>
           <div class="fb-share-button" href="http://atxne.ws/1I7M9xt" width="200" type="button_count"></div>
         </li>
-      
+
 
         <li>
           <div class="twitter-button">
@@ -338,7 +338,7 @@ node.parentNode.insertBefore(gads, node);
             !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
           </script>
         </li>
-      
+
     </ul>
   </div>
 
@@ -372,7 +372,7 @@ node.parentNode.insertBefore(gads, node);
         background-image: url(./media/6rafael-mr_kopou3p.jpg);
       }
     }
-    
+
   </style>
 
 
@@ -385,7 +385,7 @@ node.parentNode.insertBefore(gads, node);
   <div class="story-metadata right text">Story by <a href="http://www.statesman.com/staff/jonathan-tilove/">Jonathan Tilove</a><br />Title photo by Jay Paul/Bloomberg<br />Presentation by Doug Miller<br />July 31, 2015</div>
 
   <div class="background-overlay">
-    
+
   </div>
 </div>
 
@@ -401,9 +401,9 @@ node.parentNode.insertBefore(gads, node);
   }
 </script>
 <div id="text-2305" class="section section-text inner-column-centered "
-  
+
 >
-  
+
 
   <div class="main-column">
     <div class="block text-block"><p>Rafael Cruz, father to Ted, is writing a book.  </p>
@@ -416,7 +416,7 @@ node.parentNode.insertBefore(gads, node);
 <p>“There are many people that think, ‘Oh, the Constitution, the Declaration of Independence are secular documents.’ Nothing could be further from the truth. The Bible was the foundation of those documents,” Rafael Cruz said. “As a matter of fact, they cite the Bible more than anything else, and so Christianity was totally intertwined with the Revolutionary War.”  </p></div>
   </div>
 
-  
+
 </div>
 <script>
   //IE9 fix to stop audio playing
@@ -425,7 +425,7 @@ node.parentNode.insertBefore(gads, node);
       video.muted = true;
     }
 </script><style>
-  
+
     .section-text-over-media-10146 {
       background-image: url(./media/1cruz-hr.jpg);
     }
@@ -444,26 +444,26 @@ node.parentNode.insertBefore(gads, node);
         background-image: url(./media/1cruz-mr.jpg);
       }
     }
-    
-  
+
+
 </style>
 
 <div id="text-over-media-10146" class="section section-text-over-media section-text-over-image section-text-over-media-10146 " data-viewport-height>
   <div class="text text-over-media-inner center center normal">
-    
+
       <div class="text-inner">
-        
+
       </div>
-    
+
   </div>
 
   <div class="background-overlay">
-    
+
   </div>
 
-  
+
     <p class="caption text-over-media-caption main-text-is-center">Ted Cruz celebrates with his father, Rafael Cruz, after winning a runoff for the Republican Senate nomination in Houston in July 2012.  Photo by Michael Stravato/The New York Times</p>
-  
+
 
   <img alt="Ted Cruz celebrates with his father, Rafael Cruz, after winning a runoff for the Republican Senate nomination in Houston in July 2012.  Photo by Michael Stravato/The New York Times" data-landscape-src="./media/1cruz-hr.jpg" data-portrait-src="" class="section-background-image text-over-media-background-image retina-only" data-autoscale="cover">
 </div>
@@ -495,9 +495,9 @@ node.parentNode.insertBefore(gads, node);
 }());
 </script>
 <div id="text-2306" class="section section-text inner-column-centered "
-  
+
 >
-  
+
 
   <div class="main-column">
     <div class="block text-block"><p>It is mid-July and Cruz, 76, is sitting at a corner table at the Hilton Garden Inn, next door to the lakeside Granbury Resort Conference Center where a Christian Values Summit is about to get underway in this picturesque town 60 miles southwest of his home in the Dallas suburb of Carrollton, where 12 years ago the elder Cruz was ordained a non-denominational pastor.  </p>
@@ -509,7 +509,7 @@ node.parentNode.insertBefore(gads, node);
 <p>“Actually I get energized by it, I really get energized by it,” Cruz said. “I almost feel guilty if I’m sitting at home. I just feel an urgency to share with people.”  </p></div>
   </div>
 
-  
+
 </div>
 <script>
   //IE9 fix to stop audio playing
@@ -518,7 +518,7 @@ node.parentNode.insertBefore(gads, node);
       video.muted = true;
     }
 </script><style>
-  
+
     .section-text-over-media-10147 {
       background-image: url(./media/3rafael-hr.jpg);
     }
@@ -537,26 +537,26 @@ node.parentNode.insertBefore(gads, node);
         background-image: url(./media/3rafael-mr.jpg);
       }
     }
-    
-  
+
+
 </style>
 
 <div id="text-over-media-10147" class="section section-text-over-media section-text-over-image section-text-over-media-10147 " data-viewport-height>
   <div class="text text-over-media-inner center center normal">
-    
+
       <div class="text-inner">
-        
+
       </div>
-    
+
   </div>
 
   <div class="background-overlay">
-    
+
   </div>
 
-  
+
     <p class="caption text-over-media-caption main-text-is-center">Rafael Cruz, father of U.S. Sen. Ted Cruz speaks at a tea party meeting at the West Waco Library &amp; Genealogy Center in April 2014. Photo by Deborah Cannon/American-Statesman</p>
-  
+
 
   <img alt="Rafael Cruz, father of U.S. Sen. Ted Cruz speaks at a tea party meeting at the West Waco Library &amp;amp; Genealogy Center in April 2014. Photo by Deborah Cannon/American-Statesman" data-landscape-src="./media/3rafael-hr.jpg" data-portrait-src="" class="section-background-image text-over-media-background-image retina-only" data-autoscale="cover">
 </div>
@@ -588,9 +588,9 @@ node.parentNode.insertBefore(gads, node);
 }());
 </script>
 <div id="text-2307" class="section section-text inner-column-centered "
-  
+
 >
-  
+
 
   <div class="main-column">
     <div class="block text-block"><p>In Granbury, Cruz adds a few hundred to the tally of 10,000 to 15,000 pastors he calculates he has addressed, delivering his PowerPoint, “Reclaiming America: Why pastors (and Christians in general) need to be involved in the political arena,” and, as always, concluding by asking everyone to stand and to repeat after him, pledging their “sacred honor to do what we can to restore righteousness in America … to make America, once again, that shining city on the hill” – to borrow Ronald Reagan’s borrowing of the Puritan John Winthrop – “so help me God.”  </p>
@@ -603,7 +603,7 @@ node.parentNode.insertBefore(gads, node);
 <p>“Rafael came to the United States a legal immigrant who was tortured by the Batista regime in Cuba, arrived (in Austin) virtually penniless, didn’t speak any English, and in one generation his son is a credible candidate for president of the United States. It is a remarkable American story,” said Rick Tyler, national spokesman for the Cruz campaign. “We view him as a great asset, and we have not tried to change anything about his message.”  </p></div>
   </div>
 
-  
+
 </div>
 <script>
   //IE9 fix to stop audio playing
@@ -612,7 +612,7 @@ node.parentNode.insertBefore(gads, node);
       video.muted = true;
     }
 </script><style>
-  
+
     .section-text-over-media-10148 {
       background-image: url(./media/1raf-hr.jpg);
     }
@@ -631,26 +631,26 @@ node.parentNode.insertBefore(gads, node);
         background-image: url(./media/1raf-mr.jpg);
       }
     }
-    
-  
+
+
 </style>
 
 <div id="text-over-media-10148" class="section section-text-over-media section-text-over-image section-text-over-media-10148 " data-viewport-height>
   <div class="text text-over-media-inner center center normal">
-    
+
       <div class="text-inner">
-        
+
       </div>
-    
+
   </div>
 
   <div class="background-overlay">
-    
+
   </div>
 
-  
+
     <p class="caption text-over-media-caption main-text-is-center">Ted Cruz's father Rafael Cruz signs an autograph for a fan at a recent July event in Granbury.  Jonathan Tilove/American-Statesman</p>
-  
+
 
   <img alt="Ted Cruz&#x27;s father Rafael Cruz signs an autograph for a fan at a recent July event in Granbury.  Jonathan Tilove/American-Statesman" data-landscape-src="./media/1raf-hr.jpg" data-portrait-src="" class="section-background-image text-over-media-background-image retina-only" data-autoscale="cover">
 </div>
@@ -682,9 +682,9 @@ node.parentNode.insertBefore(gads, node);
 }());
 </script>
 <div id="text-2308" class="section section-text inner-column-centered "
-  
+
 >
-  
+
 
   <div class="main-column">
     <div class="block text-block"><p><strong>‘God has destined you for greatness’</strong>  </p>
@@ -697,15 +697,15 @@ node.parentNode.insertBefore(gads, node);
 <p>For the half-century since the Scopes Trial and the repeal of Prohibition, fundamentalist Christians had retreated from the public square, more intent on Jesus’ return than election returns.  </p>
 <p>But that era ended with the thundering reception that day for Reagan’s welcome declaration to Christian leaders, “I know you can’t endorse me. But I want you to know that I endorse you and what you are doing.”  </p></div><div class="block media-block media-block-youtube">
   <div class="inline-media">
-    
+
     <div class="inline-youtube">
       <iframe id="text-2308-block-2" src="//www.youtube.com/embed/t7JksVsWv4U?enablejsapi=1&rel=0" frameborder="0" width="560" height="315" allowfullscreen></iframe>
     </div>
-    
+
       <p class="media-block-caption caption">
         Video published by www.tedcruz.org
       </p>
-    
+
   </div>
 </div><div class="block text-block"><p>(Curiously, Cruz could not vote for Reagan. While he became a Canadian citizen during the few years he lived there — it is where Ted Cruz was born — he did not become a U.S. citizen until 2005. Asked about that, he said, “I wish I’d done it before. I don’t have a good excuse. Sometimes you just put things off.”)  </p>
 <p>“Talk to me about your son and his rise. This must be a thing of God. It’s meteoric,” David Brody, chief political correspondent for the Christian Broadcasting Network, asked Rafael Cruz in an interview in 2013, Ted Cruz’s first year in the Senate.  </p>
@@ -713,7 +713,7 @@ node.parentNode.insertBefore(gads, node);
 <p>“So this is not a trajectory of three years,” Cruz told Brody. “This is a trajectory of 30 years.”  </p></div>
   </div>
 
-  
+
 </div>
 <script>
   //IE9 fix to stop audio playing
@@ -722,7 +722,7 @@ node.parentNode.insertBefore(gads, node);
       video.muted = true;
     }
 </script><style>
-  
+
     .section-text-over-media-10151 {
       background-image: url(./media/2jwj_abbott_11-hr.jpg);
     }
@@ -741,26 +741,26 @@ node.parentNode.insertBefore(gads, node);
         background-image: url(./media/2jwj_abbott_11-mr.jpg);
       }
     }
-    
-  
+
+
 </style>
 
 <div id="text-over-media-10151" class="section section-text-over-media section-text-over-image section-text-over-media-10151 " data-viewport-height>
   <div class="text text-over-media-inner center center normal">
-    
+
       <div class="text-inner">
-        
+
       </div>
-    
+
   </div>
 
   <div class="background-overlay">
-    
+
   </div>
 
-  
+
     <p class="caption text-over-media-caption main-text-is-center">U.S. Sen. Ted Cruz speaks at Gov.-elect Greg Abbott's election night party at ACL Live at the Moody Theater on Nov. 4, 2014. Photo by Jay Janner/American-Statesman</p>
-  
+
 
   <img alt="U.S. Sen. Ted Cruz speaks at Gov.-elect Greg Abbott&#x27;s election night party at ACL Live at the Moody Theater on Nov. 4, 2014. Photo by Jay Janner/American-Statesman" data-landscape-src="./media/2jwj_abbott_11-hr.jpg" data-portrait-src="" class="section-background-image text-over-media-background-image retina-only" data-autoscale="cover">
 </div>
@@ -792,9 +792,9 @@ node.parentNode.insertBefore(gads, node);
 }());
 </script>
 <div id="text-2312" class="section section-text inner-column-centered "
-  
+
 >
-  
+
 
   <div class="main-column">
     <div class="block text-block"><p>Cruz picked up the story in Granbury.  </p>
@@ -810,7 +810,7 @@ node.parentNode.insertBefore(gads, node);
 <p>Even after Princeton, Rafael Cruz said, “When he told me he was going to go to Harvard (Law School), I said, ‘Ted, Harvard is the pit of liberalism. Can you handle it?’ And he looked me in the eye and said, ‘Dad, I can handle it.’”  </p></div>
   </div>
 
-  
+
 </div>
 <script>
   //IE9 fix to stop audio playing
@@ -819,7 +819,7 @@ node.parentNode.insertBefore(gads, node);
       video.muted = true;
     }
 </script><style>
-  
+
     .section-text-over-media-10149 {
       background-image: url(./media/1rafael-hr.jpg);
     }
@@ -838,26 +838,26 @@ node.parentNode.insertBefore(gads, node);
         background-image: url(./media/1rafael-mr.jpg);
       }
     }
-    
-  
+
+
 </style>
 
 <div id="text-over-media-10149" class="section section-text-over-media section-text-over-image section-text-over-media-10149 " data-viewport-height>
   <div class="text text-over-media-inner center center normal">
-    
+
       <div class="text-inner">
-        
+
       </div>
-    
+
   </div>
 
   <div class="background-overlay">
-    
+
   </div>
 
-  
+
     <p class="caption text-over-media-caption main-text-is-center">Texas state Senate candidate Konni Burton, center, stands with Rafael Cruz, left, and his son U.S. Sen. Ted Cruz during a Burton campaign event  in Fort Worth in March 2014. Photo by Ron T. Ennis/Fort Worth Star-Telegram/MCT</p>
-  
+
 
   <img alt="Texas state Senate candidate Konni Burton, center, stands with Rafael Cruz, left, and his son U.S. Sen. Ted Cruz during a Burton campaign event  in Fort Worth in March 2014. Photo by Ron T. Ennis/Fort Worth Star-Telegram/MCT" data-landscape-src="./media/1rafael-hr.jpg" data-portrait-src="" class="section-background-image text-over-media-background-image retina-only" data-autoscale="cover">
 </div>
@@ -889,9 +889,9 @@ node.parentNode.insertBefore(gads, node);
 }());
 </script>
 <div id="text-2309" class="section section-text inner-column-centered "
-  
+
 >
-  
+
 
   <div class="main-column">
     <div class="block text-block"><p><strong>‘America was founded as a Christian country’</strong>  </p>
@@ -906,15 +906,15 @@ node.parentNode.insertBefore(gads, node);
 <p>“I love him to death,” Shedd said. “A lot of us who do this work are appalled at Christian apathy. People are too timid, too quiet, too passive, too sheepish. They buy into this, ‘You know, Jesus wasn’t political.’ In my opinion, the reason politics is so dirty is because God’s people stay so far away from it.”  </p>
 <p>“Unfortunately,” Cruz said in Granbury, “many people in America are unaware of how intertwined Christianity and the American Revolution were.”  </p></div><div class="block media-block media-block-youtube">
   <div class="inline-media">
-    
+
     <div class="inline-youtube">
       <iframe id="text-2309-block-2" src="//www.youtube.com/embed/znfTa2whKvI?enablejsapi=1&rel=0" frameborder="0" width="560" height="315" allowfullscreen></iframe>
     </div>
-    
+
       <p class="media-block-caption caption">
         Video published by www.theFamilyLeader.com&nbsp;
       </p>
-    
+
   </div>
 </div><div class="block text-block"><p>“Fire from the pulpit was the spark for the Revolution,” he said. “In fact, David Barton often says that you can consider the Declaration of Independence like a series of sermon summaries because every one of those challenges — you know, challenging the King of England — were preached from the pulpits. It was preachers calling out King George for the atrocities that the British were perpetrating on the American people.”  </p>
 <p>Cruz believes Jefferson’s description of a “wall of separation between church and state” in his letter, as president, to the Danbury Baptists, has been widely misunderstood and misapplied.  </p>
@@ -932,7 +932,7 @@ node.parentNode.insertBefore(gads, node);
 <p>The so-called wall of separation between church and state, he said, is increasingly viewed as a “tiresome metaphor.”  </p></div>
   </div>
 
-  
+
 </div>
 <script>
   //IE9 fix to stop audio playing
@@ -941,7 +941,7 @@ node.parentNode.insertBefore(gads, node);
       video.muted = true;
     }
 </script><style>
-  
+
     .section-text-over-media-10150 {
       background-image: url(./media/4rafeal-hr.jpg);
     }
@@ -960,26 +960,26 @@ node.parentNode.insertBefore(gads, node);
         background-image: url(./media/4rafeal-mr.jpg);
       }
     }
-    
-  
+
+
 </style>
 
 <div id="text-over-media-10150" class="section section-text-over-media section-text-over-image section-text-over-media-10150 " data-viewport-height>
   <div class="text text-over-media-inner center center normal">
-    
+
       <div class="text-inner">
-        
+
       </div>
-    
+
   </div>
 
   <div class="background-overlay">
-    
+
   </div>
 
-  
+
     <p class="caption text-over-media-caption main-text-is-center">U.S. Sen. Ted Cruz arrives on Capitol Hill in Washington on Wednesday to preside over the subcommittee's hearing where Internal Revenue Service Commissioner John Koskinen testified on IRS targeting, focusing on the progress of agency reforms and congressional options. Photo by Andrew Harnik/AP</p>
-  
+
 
   <img alt="U.S. Sen. Ted Cruz arrives on Capitol Hill in Washington on Wednesday to preside over the subcommittee&#x27;s hearing where Internal Revenue Service Commissioner John Koskinen testified on IRS targeting, focusing on the progress of agency reforms and congressional options. Photo by Andrew Harnik/AP" data-landscape-src="./media/4rafeal-hr.jpg" data-portrait-src="" class="section-background-image text-over-media-background-image retina-only" data-autoscale="cover">
 </div>
@@ -1011,9 +1011,9 @@ node.parentNode.insertBefore(gads, node);
 }());
 </script>
 <div id="text-2311" class="section section-text inner-column-centered "
-  
+
 >
-  
+
 
   <div class="main-column">
     <div class="block text-block"><p><strong>‘We are not talking about theocracy’</strong>  </p>
@@ -1031,7 +1031,7 @@ node.parentNode.insertBefore(gads, node);
 <p>“We are not talking about theocracy,” Cruz said. “We’re talking about the foundational principles that are the basis for the Constitution, and those foundational principles we find in the word of God. This is what I call a Judeo-Christian ethic, and what is that? Well, first of all it is a moral code of conduct, and then it’s honesty, integrity, individual responsibility, the rule of law, free enterprise, limited government.”  </p></div>
   </div>
 
-  
+
 </div>
 <script>
   //IE9 fix to stop audio playing
@@ -1047,9 +1047,9 @@ node.parentNode.insertBefore(gads, node);
   </script>
 
 
-    
+
 <footer>
-  
+
 <div class="story-footer">
     <div class="return-to-top">
         <div class="up-arrow">
@@ -1071,7 +1071,7 @@ node.parentNode.insertBefore(gads, node);
 
     <script   type="text/javascript" src="./static/js/common.2176.js" charset="utf-8"></script>
 
-    
+
   <script   type="text/javascript" src="./static/js/story.2176.js" charset="utf-8"></script>
   <script>
     //TODO: use dfd when autoscale has happened
@@ -1085,10 +1085,10 @@ node.parentNode.insertBefore(gads, node);
     });
   </script>
 
-  
+
 
   <script>
-    
+
 
     ga('create', 'UA-42055132-1', {'name': 'shorthand' });
     ga('shorthand.send', 'pageview', {
@@ -1114,7 +1114,7 @@ node.parentNode.insertBefore(gads, node);
       } catch (e) {}
     });
   </script>
-  
+
 <!-- cmg footer metrics -->
 <script type="text/javascript">
   var projectSite = "statesman";
@@ -1129,7 +1129,7 @@ if (projectCategory == "") {
     projectHier3 = projectChannel
 }
 else if (projectSubCategory == "" && projectCategory != "") {
-    projectHier3 = projectChannel + "|" + projectCategory 
+    projectHier3 = projectChannel + "|" + projectCategory
 }
 else {
     projectHier3 = projectChannel + "|" + projectCategory + "|" + projectSubCategory
@@ -1231,6 +1231,6 @@ height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
       loadChartbeat : function() { oldonload(); loadChartbeat(); };
   })();
 </script>
-  
+
   </body>
 </html>
